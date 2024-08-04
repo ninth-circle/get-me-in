@@ -10,8 +10,11 @@
 - Navigate to extensions on your chromium browser.
 - Enable `Developer mode`.
 <image src="./resources/tutorial_1.png" width="1000">
+
 - Click `load-unpacked`.
 <image src="./resources/tutorial_2.png" width="1000">
+
 - Enable the extension.
 <image src="./resources/tutorial_3.png" width="1000">
-- (Optionally pin it if you want).
+
+- *(Optionally pin it if you want)*.
