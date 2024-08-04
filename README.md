@@ -6,7 +6,7 @@
 - **Import Cookie**: This feature allows you to import cookies from a file and set them for the specified domain. The cookies from the file will be applied to the fetched domain, overwriting any existing cookies.
 
 ## Getting Started
-- Download and extract the [source code .zip](https://github.com/hyouteki/wikiracing/archive/refs/heads/main.zip).
+- Download and extract the [source code .zip](https://github.com/ninth-circle/get-me-in/archive/refs/heads/main.zip).
 - Navigate to extensions on your chromium browser.
 - Enable `Developer mode`.
 <image src="./resources/tutorial_1.png" width="1000">
