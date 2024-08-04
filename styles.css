@@ -1,0 +1,79 @@
+:root {
+	--navbar-bg: #121415;
+	--button-hover-bg: #262a2b;
+	--button-text-color: #a8a095;
+	--bg: #181a1b;
+	--input-bg: #2a2d2e;
+    --input-border: #444;
+    --input-text-color: #ffffff;
+	--font-size: 20px;
+}
+
+html {
+	width: 400px;
+	height: 600px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--bg);
+    color: #ffffff;
+}
+
+.navbar {
+    display: flex;
+	flex-direction: column;
+    justify-content: flex-start;
+    background-color: var(--navbar-bg);
+    padding: 0;
+    border: none;
+}
+
+.navbar button {
+    background-color: var(--navbar-bg);
+    color: var(--button-text-color);
+    text-align: left;
+    font-size: var(--font-size);
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.navbar button i {
+    margin-right: 15px;
+}
+
+.navbar button:hover {
+    background-color: var(--button-hover-bg);
+}
+
+.navbar button:focus {
+    outline: none;
+}
+
+#domain-input {
+    width: 100%;
+    background-color: var(--input-bg);
+    border: 1px solid var(--input-border);
+    color: var(--button-text-color);
+    font-size: var(--font-size);
+    padding: 10px;
+    border-radius: 0p;
+    box-sizing: border-box;
+	cursor: pointer;
+	outline: none;
+    box-shadow: none; 
+}
+
+#domain-input::placeholder {
+    opacity: 0.7;
+}
+
+#cookie-file-input {
+	display: none;
+}
