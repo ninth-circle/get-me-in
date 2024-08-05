@@ -11,7 +11,7 @@
 - Enable `Developer mode`.
 <image src="./resources/tutorial_1.png" width="1000">
 
-- Click `load-unpacked`.
+- Click `Load unpacked` and choose the extracted source code dir.
 <image src="./resources/tutorial_2.png" width="1000">
 
 - Enable the extension.
